@@ -1,0 +1,84 @@
+<!-- include header-->
+<%- include('include/_header')%>
+<!-- include header ends here-->
+    
+
+<!--MAIN SECTION-->
+
+
+<div class="m-5">
+    <a href="/add-user" type="button" class="btn btn-primary">All users</a>
+    <form>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="inputname" placeholder="Name">
+              </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email">
+              </div>
+        </div>
+
+        <fieldset class="form-group">
+            <div class="row">
+              <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" >
+                  <label class="form-check-label" for="gridRadios1">
+                    Male
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                    Female
+                  </label>
+                </div>
+                <div class="form-check ">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" >
+                  <label class="form-check-label" for="gridRadios3">
+                   Others
+                  </label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-group">
+            <div class="row">
+              <legend class="col-form-label col-sm-2 pt-0">Status</legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" >
+                  <label class="form-check-label" for="gridRadios1">
+                    Active
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                    Inactive
+                  </label>
+                </div>
+                
+              </div>
+            </div>
+          </fieldset>
+       
+          
+        
+        
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+    </div>
+<!--MAIN SECTION ENDS HERE-->
+
+
+<!-- include footer-->
+<%- include('include/_footer')%>
+<!-- include footer ends here-->
